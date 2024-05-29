@@ -27,7 +27,7 @@ function Home() {
           </div>
         </div>
 
-        <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto 2-3/4 md:w-full'/>
+        <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto h-3/4 md:w-full'/>
       </div>
     </div>
   )
