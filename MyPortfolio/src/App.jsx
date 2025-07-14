@@ -20,6 +20,7 @@ function App() {
      <Contact />
 
      <SocialLinks />
+     <Footer />
 
     </>
   );

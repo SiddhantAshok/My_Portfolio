@@ -19,7 +19,7 @@ const Footer = () => {
           />
         </a>
         <a
-          href="https://www.linkedin.com/in/siddhant-ashok-091994/"
+          href="https://www.linkedin.com/in/siddhant-ashok/"
           target="_blank"
         >
           <img
