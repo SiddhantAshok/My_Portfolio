@@ -11,14 +11,16 @@ function App() {
   return (
     // Added Components below
     <>
-      <NavBar />
-      <Home />
-      <About />
-      <Portfolio />
-      <Experience />
-      <Contact />
-      <SocialLinks />
-      <Footer />
+
+     <NavBar />
+     <Home />
+     <About />
+     {/* <Portfolio /> */}
+     <Experience />
+     <Contact />
+
+     <SocialLinks />
+
     </>
   );
 }
