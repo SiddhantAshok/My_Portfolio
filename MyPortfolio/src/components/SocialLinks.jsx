@@ -13,7 +13,7 @@ function SocialLinks() {
           LinkedIn <FaLinkedin size={30}/>
         </>
       ),
-      href: 'https://www.linkedin.com/in/siddhant-ashok-091994/',
+      href: 'https://www.linkedin.com/in/siddhant-ashok/',
       style: 'rounded-tr-md'
     },
     {
