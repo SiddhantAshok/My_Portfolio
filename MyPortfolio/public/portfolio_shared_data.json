@@ -1,0 +1,127 @@
+{
+    "basic_info": {
+      "name": "Siddhant Priya Ashok",
+      "titles": [ "Full-stack Developer", "AI/ML Enthusiast" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/siddhant-ashok/",
+          "class": "fab fa-linkedin-in"
+        },
+        {
+          "name": "gmail",
+          "url": "mailto:siddhant.ashok091994@gmail.com",
+          "class": "fas fa-envelope"
+        },
+        {
+          "name": "resume",
+          "url": "images/resume.pdf",
+          "class": "fas fa-file-pdf"
+        }, {
+          "name": "whatsapp",
+          "url": "https://wa.me/9458779728?text=Hello%2C%20I%20came%20across%20your%20portfolio%20and%20I%20would%20like%20to%20discuss%20potential%20opportunities.",
+          "class": "fas fa-phone"
+        }
+      ],
+      "image": "myProfile.png"
+    },
+    "skills": {
+      "icons": [
+         {
+          "name": "C#",
+          "class": "devicon-csharp-plain",
+          "level": "65"
+        },
+        {
+          "name": "Dotnet Core",
+          "class": "devicon-dotnetcore-plain",
+          "level": "90"
+        },
+        {
+          "name": "SQL Server",
+          "class": "devicon-microsoftsqlserver-plain",
+          "level": "60"
+        },
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original",
+          "level": "80"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "70"
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original",
+          "level": "75"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "85"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain-wordmark",
+          "level": "70"
+        },
+        {
+          "name": "Jenkins",
+          "class": "devicon-jenkins-line",
+          "level": "70"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "60"
+        },
+        {
+          "name": "Linux",
+          "class": "devicon-linux-plain",
+          "level": "70"
+        },
+        {
+          "name": "Pandas",
+          "class": "devicon-pandas-plain",
+          "level": "70"
+        },
+        {
+          "name": "Pytorch",
+          "class": "devicon-pytorch-original",
+          "level": "70"
+        },
+        {
+          "name": "Numpy",
+          "class": "devicon-numpy-plain",
+          "level": "70"
+        },
+        {
+          "name": "TensorFlow",
+          "class": "devicon-tensorflow-original",
+          "level": "70"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,118 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Siddhant. I am a passionate 💻 Software Engineer with more than 4.5 years of experience in building scalable and intelligent software solutions. My core expertise lies in ⚙️ .NET Core, #️⃣ C#, ⚛️ React, 🗃️ SQL, and ☁️ cloud technologies like AWS and Azure. At BusinessNext (CRMnext), I work on enterprise-grade CRM systems, leveraging modern DevOps tools such as 🐳 Docker and 🏗️ Jenkins to ensure robust and continuous delivery.\n\nBeyond traditional backend and frontend development, I've delved deep into 🤖 machine learning and AI. One of my notable projects includes a 🐍 Python-based service that auto-generates UI form layouts from images using 🔍 OCR and object detection—blending innovation with real-world utility.\n\nPreviously at Ginger Webs, I led the development of high-impact products including 📊 scalable OMR/OCR systems, 👁️ AI-based proctoring tools, and 🔒 secure exam browsers, earning 2× 🏆 Employee of the Month and 3× ⭐ Spot Awards for my contributions.\n\nI'm driven by a strong desire to 💡 innovate, solve real-world problems, and constantly evolve across domains like 🤖 AI/ML, 👁️ computer vision, and ⚙️ automation. I thrive in agile, fast-paced environments where tech meets purpose.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Animal Shelter",
+        "startDate": "2020",
+        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "images": [
+          "images/portfolio/animal-shelter/p1.jpg",
+          "images/portfolio/animal-shelter/p2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "Photography",
+        "startDate": "2018",
+        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "images": [
+          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/photography/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "3D Object Viewer",
+        "startDate": "2015",
+        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "DefOpenSource",
+        "title": "Front-End Developer",
+        "years": "10.2019 - present",
+        "mainTech": [
+          "Angular 8/9/10"
+        ],
+        "technologies": [
+          "REST API",
+          "RxJS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "EF Core",
+          ".NET Core",
+          "SignalR",
+          "Angular Material"
+        ]
+      },
+      {
+        "company": "Serros Solutions",
+        "title": "Intern",
+        "years": "01.2018 - 09.2019",
+        "mainTech": [
+          "Angular 7/8"
+        ],
+        "technologies": [
+          "RxJS",
+          "Django",
+          "PHP",
+          "JavaScript",
+          "DHTMLX Gantt"
+        ]
+      }
+    ]
+  }

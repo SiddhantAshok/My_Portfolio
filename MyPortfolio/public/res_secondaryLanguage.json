@@ -1,0 +1,116 @@
+{
+    "basic_info": {
+      "description_header": "नमस्ते",
+      "description": "👋 मैं सिद्धांत हूँ। मैं एक 💻 सॉफ्टवेयर इंजीनियर हूँ जिसे स्केलेबल और स्मार्ट सॉफ्टवेयर बनाने का 4.5 साल से ज़्यादा का अनुभव है। मैं ⚙️ .NET Core, #️⃣ C#, ⚛️ React, 🗃️ SQL, और ☁️ AWS/Azure जैसी क्लाउड टेक्नोलॉजी में माहिर हूँ। BusinessNext (CRMnext) में, मैं 🐳 Docker और 🏗️ Jenkins जैसे टूल्स का इस्तेमाल करके बड़े CRM सिस्टम्स पर काम करता हूँ।\n\nमैंने 🤖 AI/ML के क्षेत्र में भी काम किया है—जैसे एक 🐍 Python प्रोजेक्ट जो इमेज से 🔍 OCR और ऑब्जेक्ट डिटेक्शन की मदद से अपने-आप UI फॉर्म बना देता था।\n\nपहले Ginger Webs में मैंने 📊 OMR/OCR सिस्टम, 👁️ AI प्रोक्टरिंग टूल, और 🔒 सिक्योर एग्जाम ब्राउज़र जैसे प्रोडक्ट्स बनाए। यहाँ मुझे 2 बार 🏆 बेस्ट एम्प्लॉयी और 3 बार ⭐ स्पेशल अवार्ड मिला।\n\nमेरी दिलचस्पी 💡 नए आइडियाज़, 🤖 AI, 👁️ कंप्यूटर विजन, और ⚙️ ऑटोमेशन में है। मुझे तेज़-रफ़्तार और नई टेक्नोलॉजी वाले माहौल में काम करना पसंद है।",
+      "section_name": {
+        "about": "मेरे बारे में",
+        "projects": "मेरे प्रोजेक्ट्स",
+        "skills": "मेरी स्किल्स",
+        "experience": "अनुभव"
+      }
+    },
+    "projects": [
+      {
+        "title": "Animal Shelter",
+        "startDate": "2020",
+        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "images": [
+          "images/portfolio/animal-shelter/p1.jpg",
+          "images/portfolio/animal-shelter/p2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "Photography",
+        "startDate": "2018",
+        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+        "images": [
+          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/photography/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "3D Object Viewer",
+        "startDate": "2015",
+        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "DefOpenSource",
+        "title": "Front-End Developer",
+        "years": "10.2019 - obecnie",
+        "mainTech": [
+          "Angular 8/9/10"
+        ],
+        "technologies": [
+          "REST API",
+          "RxJS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "EF Core",
+          "Angular Material"
+        ]
+      },
+      {
+        "company": "Serros Solutions",
+        "title": "Stażystka",
+        "years": "01.2018 - 09.2019",
+        "mainTech": [
+          "Angular 7/8"
+        ],
+        "technologies": [
+          "REST API",
+          "RxJS",
+          "Swagger",
+          "JavaScript",
+          "DHTMLX Gantt"
+        ]
+      }
+    ]
+  }
