@@ -11,38 +11,14 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Habitat",
+        "startDate": "2024",
+        "description": "A project I worked to understand the React and Dotnet Core integration. It is a simple application that allows to manage habitats and animals in them. It has a simple UI and allows to add, edit and delete habitats and animals.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/habitat/P1.png",
+          "images/portfolio/habitat/P2.png"
         ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
+        "url": "https://github.com/SiddhantAshok/Habitat",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -51,67 +27,98 @@
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
           },
           {
             "class": "devicon-csharp-plain",
             "name": "C#"
+          },
+          {
+            "class": "devicon-dotnetcore-plain",
+            "name": "dotnet core"
+          },
+          {
+            "class": "devicon-microsoftsqlserver-plain",
+            "name": "SQL Server"
+          }
+        ]
+      },
+      {
+        "title": "Employee Management",
+        "startDate": "2023",
+        "description": "One of the first applications I worked on end to end. To get the better understanding of the dotnet core and ASP.Net I created a simple employee management system. It allows to add, edit and delete employees, as well as view their details. And also a user management system to manage users and their roles.",
+        "images": [
+          "images/portfolio/employee-management/P1.jpg",
+          "images/portfolio/employee-management/P2.png",
+          "images/portfolio/employee-management/P3.png",
+          "images/portfolio/employee-management/P4.png"
+        ],
+        "url": "https://github.com/SiddhantAshok/EmployeeManagementWebApp",
+        "technologies": [
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          },
+          {
+            "class": "devicon-dotnetcore-plain",
+            "name": "dotnet core"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-microsoftsqlserver-plain",
+            "name": "SQL Server"
+          },
+          {
+            "class": "devicon-jquery-plain",
+            "name": "JQuery"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "BUSINESSNEXT(CRMNEXT) Acidaes Solutions Pvt. Ltd.",
+        "title": "Engineer",
+        "years": "02.2025 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "DotNet Core 6/8, React 18, Python 3.11"
         ],
         "technologies": [
+          ".NET Core",
+          "SQL Server",
+          "React",
           "REST API",
-          "RxJS",
+          "EF Core",          
+          "SignalR",
           "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Python",
+          "NumPy",
+          "Pandas",
+          "OpenCV",
+          "TensorFlow",
+          "Docker",
+          "Jenkins",
+          "AWS"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Ginger Webs Pvt. Ltd.",
+        "title": "Software Engineer",
+        "years": "05.2021 - 02.2025",
         "mainTech": [
-          "Angular 7/8"
+          "DotNet 4, DotNet Core 3/5/6"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "C#",
+          ".NET",
+          "Dotnet Core",
+          "SQL Server",
+          "WPF",
+          "Azure",
+          "GCP"
         ]
       }
     ]

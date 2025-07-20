@@ -87,6 +87,37 @@ class Header extends Component {
                 }
                 id="icon-switch"
               />
+              {/* Download Resume Button */}
+              <a
+                href="images/resume.pdf"
+                download
+                className="btn btn-primary mx-auto"
+                style={{
+                  display: "block",
+                  width: "fit-content",
+                  fontWeight: "bold",
+                  fontSize: "1.1rem",
+                  backgroundColor: "rgba(53, 53, 53, 0.5)", // translucent
+                  borderColor: "rgba(53, 53, 53, 0.3)",
+                  borderRadius: "25px", // rounded corners
+                  backdropFilter: "blur(2px)", // optional: adds a glass effect
+                  color: "#fff",
+                  boxShadow: "0 2px 8px rgba(53,53,53,0.15)",
+                  marginTop: "42px",
+                }}
+              >
+                <span
+                  className="iconify"
+                  data-icon="mdi:file-download"
+                  data-inline="false"
+                  style={{
+                    verticalAlign: "middle",
+                    marginRight: "8px",
+                    fontSize: "22px"
+                  }}
+                ></span>
+                Download Resume
+              </a>
             </div>
           </div>
         </div>

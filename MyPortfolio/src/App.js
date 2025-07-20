@@ -140,3 +140,7 @@ class App extends Component {
 }
 
 export default App;
+
+// Note: If you encounter issues with OpenSSL in Node.js, you can set the environment variable as follows:
+// $env:NODE_OPTIONS="--openssl-legacy-provider"
+// npm start
