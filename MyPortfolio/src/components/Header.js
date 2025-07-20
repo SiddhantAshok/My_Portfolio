@@ -7,8 +7,9 @@ class Header extends Component {
 
   constructor() {
     super();
-    this.state = { checked: false };
+    this.state = { checked: false, isPressed: false };
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
+    this.handleResumeButtonClick = this.handleResumeButtonClick.bind(this);
   }
 
   onThemeSwitchChange(checked) {
@@ -22,6 +23,11 @@ class Header extends Component {
     var newTheme =
       body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
     body.setAttribute(dataThemeAttribute, newTheme);
+  }
+
+  handleResumeButtonClick() {
+    this.setState({ isPressed: true });
+    setTimeout(() => this.setState({ isPressed: false }), 150);
   }
 
   render() {
@@ -102,9 +108,16 @@ class Header extends Component {
                   borderRadius: "25px", // rounded corners
                   backdropFilter: "blur(2px)", // optional: adds a glass effect
                   color: "#fff",
-                  boxShadow: "0 2px 8px rgba(53,53,53,0.15)",
-                  marginTop: "42px",
+                  boxShadow: this.state.isPressed
+                    ? "0 4px 24px rgba(53,53,53,0.25)"
+                    : "0 8px 24px rgba(53,53,53,0.35)", // stronger bottom shadow
+                  marginTop: "34px",
+                  padding: "8px 15px",
+                  textDecoration: "none",
+                  transition: "transform 0.15s, box-shadow 0.15s",
+                  transform: this.state.isPressed ? "scale(0.96)" : "scale(1)"
                 }}
+                onClick={this.handleResumeButtonClick}
               >
                 <span
                   className="iconify"
