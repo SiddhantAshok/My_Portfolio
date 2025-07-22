@@ -41,7 +41,7 @@ class Header extends Component {
     }, (props, prevProp) => true);
 
     return (
-      <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
+      <header id="home" style={{ height: '100%', display: 'block' }}>
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
@@ -108,10 +108,12 @@ class Header extends Component {
                   borderRadius: "25px", // rounded corners
                   backdropFilter: "blur(2px)", // optional: adds a glass effect
                   color: "#fff",
+                  zIndex: 5,
                   boxShadow: this.state.isPressed
                     ? "0 4px 24px rgba(53,53,53,0.25)"
                     : "0 8px 24px rgba(53,53,53,0.35)", // stronger bottom shadow
                   marginTop: "34px",
+                  marginBottom: "40px",
                   padding: "8px 15px",
                   textDecoration: "none",
                   transition: "transform 0.15s, box-shadow 0.15s",
