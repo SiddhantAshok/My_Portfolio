@@ -1,125 +1,169 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Siddhant. I am a passionate 💻 Software Engineer with more than 4.5 years of experience in building scalable and intelligent software solutions. My core expertise lies in ⚙️ .NET Core, #️⃣ C#, ⚛️ React, 🗃️ SQL, and ☁️ cloud technologies like AWS and Azure. At BusinessNext (CRMnext), I work on enterprise-grade CRM systems, leveraging modern DevOps tools such as 🐳 Docker and 🏗️ Jenkins to ensure robust and continuous delivery.\n\nBeyond traditional backend and frontend development, I've delved deep into 🤖 machine learning and AI. One of my notable projects includes a 🐍 Python-based service that auto-generates UI form layouts from images using 🔍 OCR and object detection—blending innovation with real-world utility.\n\nPreviously at Ginger Webs, I led the development of high-impact products including 📊 scalable OMR/OCR systems, 👁️ AI-based proctoring tools, and 🔒 secure exam browsers, earning 2× 🏆 Employee of the Month and 3× ⭐ Spot Awards for my contributions.\n\nI'm driven by a strong desire to 💡 innovate, solve real-world problems, and constantly evolve across domains like 🤖 AI/ML, 👁️ computer vision, and ⚙️ automation. I thrive in agile, fast-paced environments where tech meets purpose.",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 I'm Siddhant. I am a passionate 💻 Software Engineer with more than 4.5 years of experience in building scalable and intelligent software solutions. My core expertise lies in ⚙️ .NET Core, #️⃣ C#, ⚛️ React, 🗃️ SQL, and ☁️ cloud technologies like AWS and Azure. At BusinessNext (CRMnext), I work on enterprise-grade CRM systems, leveraging modern DevOps tools such as 🐳 Docker and 🏗️ Jenkins to ensure robust and continuous delivery.\n\nBeyond traditional backend and frontend development, I've delved deep into 🤖 machine learning and AI. One of my notable projects includes a 🐍 Python-based service that auto-generates UI form layouts from images using 🔍 OCR and object detection—blending innovation with real-world utility.\n\nPreviously at Ginger Webs, I led the development of high-impact products including 📊 scalable OMR/OCR systems, 👁️ AI-based proctoring tools, and 🔒 secure exam browsers, earning 2× 🏆 Employee of the Month and 3× ⭐ Spot Awards for my contributions.\n\nI'm driven by a strong desire to 💡 innovate, solve real-world problems, and constantly evolve across domains like 🤖 AI/ML, 👁️ computer vision, and ⚙️ automation. I thrive in agile, fast-paced environments where tech meets purpose.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Textract",
+      "startDate": "2025",
+      "description": "Intelligent document processing with AI-powered OCR and ICR. Built for developers and businesses performs smart detection, extraction, and classification of data from various document types including forms, invoices, receipts, and more. It leverages advanced machine learning models to accurately extract text and structured data, enabling seamless integration into applications and workflows. The system is designed for scalability and can handle large volumes of documents with high accuracy. It also includes features for data validation, error handling, and customizable extraction templates to meet specific business needs.",
+      "images": [
+        "images/portfolio/textract/P1.png",
+        "images/portfolio/textract/P2.png",
+        "images/portfolio/textract/P3.png",
+        "images/portfolio/textract/P4.png",
+        "images/portfolio/textract/P5.png",
+        "images/portfolio/textract/P6.png"
+      ],
+      "url": "https://textract-ui.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        },
+        {
+          "class": "devicon-dotnetcore-plain",
+          "name": "dotnet core"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-kaggle-original",
+          "name": "Kaggle"
+        },
+        {
+          "class": "devicon-opencv-plain",
+          "name": "opencv"
+        },
+        {
+          "class": "devicon-fastapi-plain",
+          "name": "fastapi"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Habitat",
-        "startDate": "2024",
-        "description": "A project I worked to understand the React and Dotnet Core integration. It is a simple application that allows to manage habitats and animals in them. It has a simple UI and allows to add, edit and delete habitats and animals.",
-        "images": [
-          "images/portfolio/habitat/P1.png",
-          "images/portfolio/habitat/P2.png"
-        ],
-        "url": "https://github.com/SiddhantAshok/Habitat",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          },
-          {
-            "class": "devicon-dotnetcore-plain",
-            "name": "dotnet core"
-          },
-          {
-            "class": "devicon-microsoftsqlserver-plain",
-            "name": "SQL Server"
-          }
-        ]
-      },
-      {
-        "title": "Employee Management",
-        "startDate": "2023",
-        "description": "One of the first applications I worked on end to end. To get the better understanding of the dotnet core and ASP.Net I created a simple employee management system. It allows to add, edit and delete employees, as well as view their details. And also a user management system to manage users and their roles.",
-        "images": [
-          "images/portfolio/employee-management/P1.jpg",
-          "images/portfolio/employee-management/P2.png",
-          "images/portfolio/employee-management/P3.png",
-          "images/portfolio/employee-management/P4.png"
-        ],
-        "url": "https://github.com/SiddhantAshok/EmployeeManagementWebApp",
-        "technologies": [
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          },
-          {
-            "class": "devicon-dotnetcore-plain",
-            "name": "dotnet core"
-          },
-          {
-            "class": "devicon-bootstrap-plain",
-            "name": "Bootstrap"
-          },
-          {
-            "class": "devicon-microsoftsqlserver-plain",
-            "name": "SQL Server"
-          },
-          {
-            "class": "devicon-jquery-plain",
-            "name": "JQuery"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "BUSINESSNEXT(CRMNEXT) Acidaes Solutions Pvt. Ltd.",
-        "title": "Engineer",
-        "years": "02.2025 - present",
-        "mainTech": [
-          "DotNet Core 6/8, React 18, Python 3.11"
-        ],
-        "technologies": [
-          ".NET Core",
-          "SQL Server",
-          "React",
-          "REST API",
-          "EF Core",          
-          "SignalR",
-          "JavaScript",
-          "Bootstrap",
-          "Python",
-          "NumPy",
-          "Pandas",
-          "OpenCV",
-          "TensorFlow",
-          "Docker",
-          "Jenkins",
-          "AWS"
-        ]
-      },
-      {
-        "company": "Ginger Webs Pvt. Ltd.",
-        "title": "Software Engineer",
-        "years": "05.2021 - 02.2025",
-        "mainTech": [
-          "DotNet 4, DotNet Core 3/5/6"
-        ],
-        "technologies": [
-          "C#",
-          ".NET",
-          "Dotnet Core",
-          "SQL Server",
-          "WPF",
-          "Azure",
-          "GCP"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Habitat",
+      "startDate": "2024",
+      "description": "A project I worked to understand the React and Dotnet Core integration. It is a simple application that allows to manage habitats and animals in them. It has a simple UI and allows to add, edit and delete habitats and animals.",
+      "images": [
+        "images/portfolio/habitat/P1.png",
+        "images/portfolio/habitat/P2.png"
+      ],
+      "url": "https://github.com/SiddhantAshok/Habitat",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        },
+        {
+          "class": "devicon-dotnetcore-plain",
+          "name": "dotnet core"
+        },
+        {
+          "class": "devicon-microsoftsqlserver-plain",
+          "name": "SQL Server"
+        }
+      ]
+    },
+    {
+      "title": "Employee Management",
+      "startDate": "2023",
+      "description": "One of the first applications I worked on end to end. To get the better understanding of the dotnet core and ASP.Net I created a simple employee management system. It allows to add, edit and delete employees, as well as view their details. And also a user management system to manage users and their roles.",
+      "images": [
+        "images/portfolio/employee-management/P1.jpg",
+        "images/portfolio/employee-management/P2.png",
+        "images/portfolio/employee-management/P3.png",
+        "images/portfolio/employee-management/P4.png"
+      ],
+      "url": "https://github.com/SiddhantAshok/EmployeeManagementWebApp",
+      "technologies": [
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        },
+        {
+          "class": "devicon-dotnetcore-plain",
+          "name": "dotnet core"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-microsoftsqlserver-plain",
+          "name": "SQL Server"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "JQuery"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "BUSINESSNEXT(CRMNEXT) Acidaes Solutions Pvt. Ltd.",
+      "title": "Engineer",
+      "years": "02.2025 - present",
+      "mainTech": ["DotNet Core 6/8, React 18, Python 3.11"],
+      "technologies": [
+        ".NET Core",
+        "SQL Server",
+        "React",
+        "REST API",
+        "EF Core",
+        "SignalR",
+        "JavaScript",
+        "Bootstrap",
+        "Python",
+        "NumPy",
+        "Pandas",
+        "OpenCV",
+        "TensorFlow",
+        "Docker",
+        "Jenkins",
+        "AWS"
+      ]
+    },
+    {
+      "company": "Ginger Webs Pvt. Ltd.",
+      "title": "Software Engineer",
+      "years": "05.2021 - 02.2025",
+      "mainTech": ["DotNet 4, DotNet Core 3/5/6"],
+      "technologies": [
+        "C#",
+        ".NET",
+        "Dotnet Core",
+        "SQL Server",
+        "WPF",
+        "Azure",
+        "GCP"
+      ]
+    }
+  ]
+}

@@ -121,6 +121,16 @@
           "name": "TensorFlow",
           "class": "devicon-tensorflow-original",
           "level": "70"
+        },
+        {
+          "name": "Kaggle",
+          "class": "devicon-kaggle-original",
+          "level": "70"
+        },
+        {
+          "name": "fastapi",
+          "class": "devicon-fastapi-plain",
+          "level": "70"
         }
       ]
     }
