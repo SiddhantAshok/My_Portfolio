@@ -11,6 +11,44 @@
   },
   "projects": [
     {
+      "title": "Live-Verify",
+      "startDate": "2026",
+      "description": "LIVE-VERIFY is a real-time AI-powered liveness verification system designed to prevent identity spoofing using fake images or videos. It combines facial motion and gesture analysis (MediaPipe) with YOLOv11-based face and mask detection to reliably distinguish genuine users from imposters. The system is exposed via scalable, containerized FastAPI services, enabling secure and efficient user authentication for modern applications.",
+      "images": [
+        "images/portfolio/liveVerify/P1.png",
+        "images/portfolio/liveVerify/P2.png",
+        "images/portfolio/liveVerify/P3.png",
+        "images/portfolio/liveVerify/P4.png"
+      ],
+      "url": "https://live-verify.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-kaggle-original",
+          "name": "Kaggle"
+        },
+        {
+          "class": "devicon-opencv-plain",
+          "name": "opencv"
+        },
+        {
+          "class": "devicon-fastapi-plain",
+          "name": "fastapi"
+        }
+      ]
+    },
+    {
       "title": "Textract",
       "startDate": "2025",
       "description": "Intelligent document processing with AI-powered OCR and ICR. Built for developers and businesses performs smart detection, extraction, and classification of data from various document types including forms, invoices, receipts, and more. It leverages advanced machine learning models to accurately extract text and structured data, enabling seamless integration into applications and workflows. The system is designed for scalability and can handle large volumes of documents with high accuracy. It also includes features for data validation, error handling, and customizable extraction templates to meet specific business needs.",
@@ -47,38 +85,6 @@
         {
           "class": "devicon-fastapi-plain",
           "name": "fastapi"
-        }
-      ]
-    },
-    {
-      "title": "Habitat",
-      "startDate": "2024",
-      "description": "A project I worked to understand the React and Dotnet Core integration. It is a simple application that allows to manage habitats and animals in them. It has a simple UI and allows to add, edit and delete habitats and animals.",
-      "images": [
-        "images/portfolio/habitat/P1.png",
-        "images/portfolio/habitat/P2.png"
-      ],
-      "url": "https://github.com/SiddhantAshok/Habitat",
-      "technologies": [
-        {
-          "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        },
-        {
-          "class": "devicon-dotnetcore-plain",
-          "name": "dotnet core"
-        },
-        {
-          "class": "devicon-microsoftsqlserver-plain",
-          "name": "SQL Server"
         }
       ]
     },

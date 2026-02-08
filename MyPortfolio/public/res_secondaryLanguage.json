@@ -11,6 +11,44 @@
   },
   "projects": [
     {
+      "title": "Live-Verify",
+      "startDate": "2026",
+      "description": "LIVE-VERIFY एक रियल-टाइम AI-आधारित लाइवनेस वेरिफिकेशन सिस्टम है, जिसे नकली इमेज या वीडियो के माध्यम से होने वाले पहचान धोखाधड़ी (spoofing) को रोकने के लिए डिज़ाइन किया गया है। यह MediaPipe द्वारा चेहरे की मूवमेंट और जेस्चर एनालिसिस तथा YOLOv11 आधारित फेस और मास्क डिटेक्शन को मिलाकर वास्तविक उपयोगकर्ताओं और imposters के बीच सटीक पहचान करता है। यह सिस्टम FastAPI और Docker के माध्यम से स्केलेबल, सुरक्षित और कुशल ऑथेंटिकेशन सेवाएँ प्रदान करता है।",
+      "images": [
+        "images/portfolio/liveVerify/P1.png",
+        "images/portfolio/liveVerify/P2.png",
+        "images/portfolio/liveVerify/P3.png",
+        "images/portfolio/liveVerify/P4.png"
+      ],
+      "url": "https://live-verify.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-kaggle-original",
+          "name": "Kaggle"
+        },
+        {
+          "class": "devicon-opencv-plain",
+          "name": "opencv"
+        },
+        {
+          "class": "devicon-fastapi-plain",
+          "name": "fastapi"
+        }
+      ]
+    },
+    {
       "title": "Textract",
       "startDate": "2025",
       "description": "AI से चलने वाली एक स्मार्ट डॉक्यूमेंट प्रोसेसिंग प्रणाली। यह डेवलपर्स और व्यवसायों के लिए बनाई गई है। यह फॉर्म, बिल, रसीदों जैसे विभिन्न दस्तावेज़ों से डेटा का पता लगाती है, निकालती है और उसे व्यवस्थित करती है। यह उन्नत मशीन लर्निंग मॉडल का उपयोग करके टेक्स्ट और डेटा को सही तरीके से निकालती है, जिससे इसे एप्लिकेशन और कार्यप्रणालियों में आसानी से जोड़ा जा सकता है। यह प्रणाली बड़े पैमाने पर काम करने के लिए बनाई गई है और बड़ी संख्या में दस्तावेज़ों को उच्च सटीकता के साथ संभाल सकती है। इसमें डेटा की जाँच, त्रुटि प्रबंधन और विशिष्ट व्यवसायिक जरूरतों के अनुसार अनुकूलन योग्य टेम्पलेट्स की सुविधाएँ भी शामिल हैं।",
@@ -47,38 +85,6 @@
         {
           "class": "devicon-fastapi-plain",
           "name": "fastapi"
-        }
-      ]
-    },
-    {
-      "title": "Habitat",
-      "startDate": "2024",
-      "description": "मैंने React और .NET Core को एक साथ इस्तेमाल करना सीखने के लिए एक प्रोजेक्ट बनाया। यह एक साधारण ऐप्लिकेशन है जिसमें हैबिटैट (प्राकृतिक आवास) और उनमें रहने वाले जानवरों को मैनेज किया जा सकता है। इसमें एक आसान UI है, जिससे आप हैबिटैट और जानवरों को जोड़, एडिट और डिलीट कर सकते हैं।",
-      "images": [
-        "images/portfolio/habitat/P1.png",
-        "images/portfolio/habitat/P2.png"
-      ],
-      "url": "https://github.com/SiddhantAshok/Habitat",
-      "technologies": [
-        {
-          "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        },
-        {
-          "class": "devicon-dotnetcore-plain",
-          "name": "dotnet core"
-        },
-        {
-          "class": "devicon-microsoftsqlserver-plain",
-          "name": "SQL Server"
         }
       ]
     },
